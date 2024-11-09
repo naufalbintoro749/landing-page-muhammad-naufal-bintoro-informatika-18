@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0a0a0a;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #c2f605;
+}
+.header img {
+    height: 50px;
+}
+.header .menu-icon {
+    font-size: 24px;
+    color: #00bcd4;
+}
+.profile {
+    text-align: center;
+    background-color: #000;
+    color:#fefefd;
+    padding: 20px 0;
+}
+.profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #c2f605;
+}
+.profile h1 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+.profile p {
+    margin: 5px 0;
+    font-style: unset;
+    font-size: 18px;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    padding: 5px;
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+.footer {background-color: #c8ff00;
+color:black;
+font-size: 10px;
+}
